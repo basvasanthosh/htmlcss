@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Login</title>
+    </head>
+    <body>
+        <header></header>
+      <form><main>
+        <label for="User-Name">User-Name : </label>
+        <input id="User-Name" type="text" placeholder="sandyDrake" required>
+        <br>
+        <label for="Password">Password : </label>
+        <input id="Password" type="password" minlength="8" required>
+        <br>
+        <label for="E-mail">E-mail : </label>
+        <input id="E-mail" type="email" placeholder="basic@gmail.com" required>
+        <br>
+        <label for="Phone-no">Phone-no : </label>
+        <input id="Phone-no" type="tel" placeholder="12345-67890" pattern="[0-9]{5}-[0-9]{5}" required> 
+        <br>
+        <label for="D-O-B">D-O-B : </label>
+        <input id="D-O-B" type="date" required>
+        <br>
+        <label for="Gender">Gender : </label>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" id="Male" name="Gender" value="Male">
+        <label for="FeMale">FeMale</label>
+        <input type="radio" id="FeMale" name="Gender" value="FeMale">
+        <br>
+        <label for="Country">Country : </label>
+        <select id="Country">
+            <option value="India">India</option>
+            <option value="Sri-Lanka ">Sri-Lanka</option>
+            <option value="Pakisthan">Pakisthan</option>
+        </select>
+        <br>
+        <label for="File">Choose File</label>
+        <input type="file" id="File" accept="image/png"><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </main></form>
+    <footer></footer>
+    </body>
+</html>

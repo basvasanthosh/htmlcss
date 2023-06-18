@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+header{
+    position: static;
+}
+footer{
+    color:antiquewhite;
+}
+h1{
+    color: red;
+}
+#gp{
+    color: red;
+}
+
+h2{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 2.1em;
+    font-style: italic;
+    text-shadow: 2px 2px 2px gray;
+}
+
+img{
+    box-shadow: 3px 3px 4px rgb(182, 166, 166),3px 3px 4px rgb(143, 40, 40);
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#levip{
+    font-size: 2em;
+}
+
+#div{
+    border:solid 2px skyblue;
+    height: 80px;
+    overflow: scroll;
+    font-size: 1.2em;
+    color:darkseagreen
+    
+}
+
+div{
+    background-color: chartreuse;
+    display:flow-root;
+    width: 100px;
+    height:100px;
+}
+
+span{
+    background-color: blueviolet;
+    display:flex;
+    visibility:visible;
+    width: 100px;
+    height:100px;
+
+}
+
+main{
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* {
+    display:
+    inline
+    block
+    flex
+
+    postion properties :
+
+    relative
+    absolute - applies to the child inside a parent 
+    fixed 
+    sticky 
+    static 
+} */
