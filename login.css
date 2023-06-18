@@ -1,0 +1,50 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+input{
+    padding:10px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 50px;
+    border: 2px solid black;
+}
+main{
+    padding:40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 700px;
+}
+
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    background-image: url(images/loginbg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#gender{
+   padding: 5px;
+}
+
+button{
+    padding:10px 20px;
+    border-radius: 5px;
+   background-color: #99e599;
+   color: black;
+   font-size: large;
+   font-weight: bold;
+   
+}
+
+footer{
+    float: right;
+}

@@ -58,14 +58,43 @@ span{
     height:100px;
 
 }
+.button{
+    background-color:tomato;
+    color: bisque;
+    padding: 15px;
+    border-radius: 10px;
+}
+.button:hover
+{
+    background-color: red;
+    color: beige;
+}
+.button:active{
+    background-color:darkred;
+    color: ghostwhite;
+}
+.button:visited{
+    background-color: blue;
+}
+
+ol li{
+    color: aqua;
+    display: none;
+}
+
+ol:hover li{
+    display:block;
+}
 
 main{
-    background-image: url(images/bg2.jpg);
+    background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    opacity: 0.2;
 }
+
 
 /* {
     display:

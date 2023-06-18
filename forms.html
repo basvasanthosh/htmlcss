@@ -2,32 +2,36 @@
 <html>
     <head>
      <title>Login</title>
+     <link rel="stylesheet" href="login.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header></header>
+
       <form><main>
-        <label for="User-Name">User-Name : </label>
+        <label for="User-Name">User-Name  </label>
         <input id="User-Name" type="text" placeholder="sandyDrake" required>
         <br>
-        <label for="Password">Password : </label>
+        <label for="Password" style="margin-left: 12px;">Password </label>
         <input id="Password" type="password" minlength="8" required>
         <br>
-        <label for="E-mail">E-mail : </label>
+        <label for="E-mail" style="margin-left: 35px;">E-mail </label>
         <input id="E-mail" type="email" placeholder="basic@gmail.com" required>
         <br>
-        <label for="Phone-no">Phone-no : </label>
+        <label for="Phone-no" style="margin-left: 10px;">Phone-no  </label>
         <input id="Phone-no" type="tel" placeholder="12345-67890" pattern="[0-9]{5}-[0-9]{5}" required> 
         <br>
-        <label for="D-O-B">D-O-B : </label>
+        <label for="D-O-B" style="margin-left: 36px;">D-O-B  </label>
         <input id="D-O-B" type="date" required>
         <br>
-        <label for="Gender">Gender : </label>
+        <label for="Gender" id="gender">Gender  </label>
         <label for="Male">Male</label>
         <input type="radio" id="Male" id="Male" name="Gender" value="Male">
         <label for="FeMale">FeMale</label>
         <input type="radio" id="FeMale" name="Gender" value="FeMale">
         <br>
-        <label for="Country">Country : </label>
+        <label for="Country" style="margin-left: 28px;" >Country  </label>
         <select id="Country">
             <option value="India">India</option>
             <option value="Sri-Lanka ">Sri-Lanka</option>
@@ -40,6 +44,6 @@
         <button type="reset">Reset</button>
 
     </main></form>
-    <footer></footer>
+
     </body>
 </html>
